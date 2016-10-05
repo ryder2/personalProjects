@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- string ids for registration.xml -->
+    <string name="app_name">Votre garage</string>
+    <string name="username_textview">Username:</string>
+    <string name="password_textview">Password:</string>
+    <string name="submit">Submit</string>
+
+    <!-- string ids for home.xml -->
+    <string name="post_comment">Post Comment</string>
+    <string name="read_comments_title">Recent Comments</string>
+    <string name="passwords_not_same">Passwords don\'t match</string>
+
+    <!-- string ids for a_propos.xml -->
+    <string name="apropos_title">À propos de nous</string>
+    <string name="apropos_content">Nous sommes une jeune entreprise valorisant, avant tout, l'entraide entre personnes. Cette application vous permet de sauver temps et argent en vous évitant le déplacement et l'attente pour une réparation simple sur votre véhicule. Pour toutes questions ou commentaires, veuillez visiter notre site internet au :</string>
+    <string name="website_link">http://www.mongarage.com</string>
+</resources>

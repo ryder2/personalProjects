@@ -1,0 +1,221 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/relatlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Créer un compte client"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/labelprenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/password"
+            android:layout_marginTop="25dp"
+            android:layout_below="@id/textView2"
+            android:text="Prenom" />
+
+        <EditText
+            android:id="@+id/prenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/labelprenom"
+            android:layout_below="@+id/labelprenom"
+            android:inputType="textPersonName"
+            android:ems="10" />
+        <TextView
+            android:id="@+id/labelnom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/password"
+            android:layout_below="@id/prenom"
+            android:text="Nom de famille" />
+
+        <EditText
+            android:id="@+id/nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/labelnom"
+            android:layout_below="@+id/labelnom"
+            android:inputType="textPersonName"
+            android:ems="10" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prendre mon addresse actuelle"
+            android:id="@+id/rechercheville"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/nom"/>
+
+
+        <TextView
+            android:id="@+id/labelrue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/password"
+            android:layout_below="@id/rechercheville"
+            android:text="Addresse (NoCivique et Rue)" />
+
+        <EditText
+            android:id="@+id/rue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/labelrue"
+            android:layout_below="@+id/labelrue"
+            android:ems="10" />
+        <TextView
+            android:id="@+id/labelcodepostal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/password"
+            android:layout_below="@id/rue"
+            android:text="Code Postal" />
+
+        <EditText
+            android:id="@+id/codepostal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/labelcodepostal"
+            android:layout_below="@+id/labelcodepostal"
+            android:ems="10" />
+        <TextView
+            android:id="@+id/labelville"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/password"
+            android:layout_below="@id/codepostal"
+            android:text="Ville" />
+
+        <EditText
+            android:id="@+id/ville"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/labelville"
+            android:layout_below="@+id/labelville"
+            android:ems="10" />
+        <TextView
+            android:id="@+id/labelprovince"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/password"
+            android:layout_below="@id/ville"
+            android:text="Province" />
+
+        <EditText
+            android:id="@+id/province"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/labelprovince"
+            android:layout_below="@+id/labelprovince"
+            android:ems="10" />
+        <TextView
+            android:id="@+id/labelpays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/password"
+            android:layout_below="@id/province"
+            android:text="Pays" />
+
+        <EditText
+            android:id="@+id/pays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/labelpays"
+            android:layout_below="@+id/labelpays"
+            android:ems="10" />
+        <TextView
+            android:id="@+id/labelemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/password"
+            android:layout_below="@id/pays"
+            android:text="E-mail" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/labelemail"
+            android:layout_below="@+id/labelemail"
+            android:inputType="textEmailAddress"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/password"
+            android:layout_below="@id/email"
+            android:text="Nom d'utilisateur" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/username"
+            android:layout_below="@+id/username"
+            android:text="Mot de passe (5 caractères minimum)" />
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView01"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/passwordretype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/username"
+            android:layout_below="@+id/password"
+            android:text="Confirmer le mot de passe" />
+
+
+        <EditText
+            android:id="@+id/passwordconfirmation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passwordretype"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/passwordconfirmation"
+            android:text="Créer mon compte" />
+
+
+    </RelativeLayout>
+</ScrollView>

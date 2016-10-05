@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:test="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/a_propos"
+        android:icon="@mipmap/logo"
+        android:title="À propos de nous"
+        android:orderInCategory="100"
+        test:showAsAction="always"/>
+</menu>

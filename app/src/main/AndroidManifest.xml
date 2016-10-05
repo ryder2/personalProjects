@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="test.com.myapplication" >
+
+    <uses-sdk />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:icon="@mipmap/logo"
+        android:allowBackup="true"
+        android:label="@string/app_name">
+        <activity
+            android:name="test.com.myapplication.Login"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="test.com.myapplication.Main"
+            android:label="@string/app_name"  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="test.com.myapplication.Register"
+            android:label="@string/app_name"  >
+        </activity>
+        <activity
+            android:name="test.com.myapplication.AddComment"
+            android:label="@string/app_name"  >
+        </activity>
+        <activity
+            android:name=".ReadCommentsUser"
+            android:label="@string/app_name"  >
+        </activity>
+        <activity
+            android:name="test.com.myapplication.ProfilUser"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="test.com.myapplication.PortailUser"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="test.com.myapplication.APropos"
+            android:label="@string/app_name"  >
+        </activity>
+        <activity
+            android:name="test.com.myapplication.PortailMecano"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="test.com.myapplication.ProfilMecano"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="test.com.myapplication.EditProfilMecano"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="test.com.myapplication.RegisterMecano"
+            android:label="@string/app_name"
+            android:configChanges="orientation|screenSize">
+        </activity>
+        <activity
+            android:name="test.com.myapplication.LoginMecano"
+            android:label="@string/app_name"  >
+        </activity>
+        <activity
+            android:name=".ReadCommentsMecano"
+            android:label="@string/app_name"  >
+        </activity>
+        <activity
+            android:name="test.com.myapplication.ViewCommentDetailMecano"
+            android:label="@string/app_name"  >
+        </activity>
+        <activity
+            android:name="test.com.myapplication.ViewCommentDetailUser"
+            android:label="@string/app_name"  >
+        </activity>
+        <activity
+            android:name="test.com.myapplication.ApplicationDetailsMecano"
+            android:label="@string/app_name"  >
+        </activity>
+        <activity
+            android:name="test.com.myapplication.UserViewProfilMecano"
+            android:label="@string/app_name"  >
+        </activity>
+    </application>
+</manifest>
